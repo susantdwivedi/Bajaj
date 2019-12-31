@@ -38,7 +38,7 @@ client.connect();
 
 app.get('/', function(request, response) {
 	
-	var numData2 = '(Operand1*Operand2)+Operand3+(Operand4*Operand5)'; 
+	/*var numData2 = '(Operand1*Operand2)+Operand3+(Operand4*Operand5)'; 
 	var numData3 = '(Operand1*Operand2)+Operand3+(Operand4*Operand5)*Operand3*Operand2*Operand1';
 	var numData4 = 'Min((((Operand1*Operand2)+Operand3+(Operand4*Operand5))*Operand3*Operand2*Operand1),(Operand1*Operand2)+Operand3+(Operand4*Operand5))';
 	var numData5 = 'Max((((Operand1*Operand2)+Operand3+(Operand4*Operand5))*Operand3*Operand2*Operand1),(Operand1*Operand2)+Operand3+(Operand4*Operand5))';
@@ -57,7 +57,8 @@ app.get('/', function(request, response) {
 	console.log(h + ":" + m + ":" + s);
 	var result= Calculation.evaluateExpressionData(strJSon,numData6);
 	response.send(result);
-	console.log(startTime - Today.getTime());
+	console.log(startTime - Today.getTime());*/
+	response.send("hello");
 	
 });
 
